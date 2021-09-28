@@ -1,0 +1,66 @@
+article header h1 {
+  color: #234082;
+  background-color: #B0C4DC;
+  width: 600px;
+  font-family: Andale Mono;
+}
+
+article header h3 {
+  color: #4E7DB3;
+  font-family: Andale Mono;
+  font-size: 16px;
+}
+
+p {
+  font-family: Arial;
+  color: #234082;
+  width: 550px;
+  margin-left: 20px;
+}
+
+figcaption {
+  font-family: Arial;
+  color: #234082;
+  font-size: 12px
+}
+
+figure img {
+  width: 600px;
+  border: 3px solid #B0C4DC;
+  padding: 0px;
+}
+
+article header p {
+  font-family: Arial;
+  color: #234082;
+  width: 550px;
+  margin-left: 0px;
+}
+
+nav ul {
+  background-color: #B0C4DC;
+  padding: 3px;
+  list-style: none;
+  width: 350px;
+  border: 3px solid #234082;
+}
+
+nav ul li {
+  border-bottom: 3px solid #234082;
+  padding: 3px;
+}
+
+nav ul li:last-child{
+  border-bottom: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #234082;
+  font-family: Andale Mono;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: white;
+}
