@@ -1,32 +1,32 @@
 article header h1 {
-  color: #234082;
-  background-color: #B0C4DC;
+  color: #F8F5C2;
+  background-color: #1B2767;
   width: 600px;
   font-family: Andale Mono;
 }
 
 article header h3 {
-  color: #4E7DB3;
+  color: #1B2767;
   font-family: Andale Mono;
   font-size: 16px;
 }
 
 p {
   font-family: Arial;
-  color: #234082;
+  color: black;
   width: 550px;
   margin-left: 20px;
 }
 
 figcaption {
   font-family: Arial;
-  color: #234082;
+  color: #1B2767;
   font-size: 12px
 }
 
 figure img {
   width: 600px;
-  border: 3px solid black;
+  border: 3px solid #1B2767;
   padding: 2px;
 }
 
@@ -38,7 +38,7 @@ article header p {
 }
 
 nav ul {
-  background-color: #234082;
+  background-color: #1B2767;
   padding: 3px;
   list-style: none;
   width: 350px;
@@ -56,11 +56,11 @@ nav ul li:last-child{
 
 nav ul li a {
   text-decoration: none;
-  color: #234082;
+  color: white;
   font-family: Andale Mono;
 }
 
 nav ul li a:hover {
   text-decoration: underline;
-  color: yellow;
+  color: #EDE77A;
 }
