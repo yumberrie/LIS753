@@ -26,8 +26,8 @@ figcaption {
 
 figure img {
   width: 600px;
-  border: 3px solid #B0C4DC;
-  padding: 0px;
+  border: 3px solid black;
+  padding: 2px;
 }
 
 article header p {
@@ -38,11 +38,11 @@ article header p {
 }
 
 nav ul {
-  background-color: #B0C4DC;
+  background-color: #234082;
   padding: 3px;
   list-style: none;
   width: 350px;
-  border: 3px solid #234082;
+  border: 3px solid black;
 }
 
 nav ul li {
@@ -62,5 +62,5 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
-  color: white;
+  color: yellow;
 }
