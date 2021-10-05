@@ -66,7 +66,7 @@ nav ul li a:hover {
 }
 
 .skip-link {
-  background: #319795;
+  background: #234082;
   color: white;
   font-weight: 700;
   left: 50%;
@@ -76,6 +76,6 @@ nav ul li a:hover {
   transition: transform 0.3s;
 }
 
-.skip-link {
+.skip-link:focus {
   transform: translateY(0%)
 }
