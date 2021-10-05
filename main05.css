@@ -30,6 +30,10 @@ figure {
   padding: 2px;
 }
 
+figure img {
+  width: 600px;
+}
+
 article header p {
   font-family: Arial;
   color: #234082;
