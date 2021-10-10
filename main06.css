@@ -1,0 +1,85 @@
+article header h1 {
+  color: #F8F5C2;
+  background-color: #1B2767;
+  width: 600px;
+  font-family: Andale Mono;
+}
+
+article header h3 {
+  color: #1B2767;
+  font-family: Andale Mono;
+  font-size: 16px;
+}
+
+main p {
+  font-family: Arial;
+  color: black;
+  width: 550px;
+  margin-left: 20px;
+}
+
+figcaption {
+  font-family: Arial;
+  color: #1B2767;
+  font-size: 12px
+}
+
+figure {
+  width: 600px;
+  border: 3px solid #1B2767;
+  padding: 2px;
+}
+
+figure img {
+  width: 600px;
+}
+
+article header p {
+  font-family: Arial;
+  color: #234082;
+  width: 550px;
+  margin-left: 0px;
+}
+
+nav ul {
+  background-color: #1B2767;
+  padding: 3px;
+  list-style: none;
+  width: 350px;
+  border: 3px solid black;
+}
+
+nav ul li {
+  border-bottom: 3px solid #234082;
+  padding: 3px;
+}
+
+nav ul li:last-child{
+  border-bottom: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Andale Mono;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #EDE77A;
+}
+
+.skip-link {
+  background: #234082;
+  color: white;
+  font-weight: 700;
+  left: 50%;
+  padding: 4px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+.skip-link:focus {
+  transform: translateY(0%)
+}
