@@ -1,85 +1,134 @@
-article header h1 {
-  color: #F8F5C2;
-  background-color: #1B2767;
-  width: 600px;
-  font-family: Andale Mono;
-}
-
-article header h3 {
-  color: #1B2767;
-  font-family: Andale Mono;
-  font-size: 16px;
-}
-
-main p {
-  font-family: Arial;
-  color: black;
-  width: 550px;
-  margin-left: 20px;
-}
-
-figcaption {
-  font-family: Arial;
-  color: #1B2767;
-  font-size: 12px
-}
-
-figure {
-  width: 600px;
-  border: 3px solid #1B2767;
-  padding: 2px;
-}
-
-figure img {
-  width: 600px;
-}
-
-article header p {
-  font-family: Arial;
-  color: #234082;
-  width: 550px;
-  margin-left: 0px;
-}
-
-nav ul {
-  background-color: #1B2767;
-  padding: 3px;
-  list-style: none;
-  width: 350px;
-  border: 3px solid black;
-}
-
-nav ul li {
-  border-bottom: 3px solid #234082;
-  padding: 3px;
-}
-
-nav ul li:last-child{
-  border-bottom: none;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  font-family: Andale Mono;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-  color: #EDE77A;
-}
-
 .skip-link {
-  background: #234082;
-  color: white;
-  font-weight: 700;
-  left: 50%;
-  padding: 4px;
-  position: absolute;
-  transform: translateY(-100%);
-  transition: transform 0.3s;
+  color: #F1F7F5;
+  background-color: #7C7494;
+  padding: 5px;
+  transform: translateY (-100%);
+  transition: translateY 0.3s;
 }
 
 .skip-link:focus {
-  transform: translateY(0%)
+  transform: translateY (0%);
+}
+
+body {
+  background-color: #F1F7F5;
+}
+
+header {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font: normal small-caps bold 40px/1 Garamond, serif;
+  color: #6A3B5E;
+}
+
+h2 {
+  font: normal normal normal 22px/1 Garamond, serif;
+  color: #7C7494;
+  padding-bottom: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  padding: 15px;
+  background-color: #BFE2DB;
+}
+
+header nav ul li a {
+  font: normal normal bold 17px/1.5 Courier New, monospace;
+  text-decoration: none;
+  color: #6A3B5E;
+}
+
+.prev-hw {
+  text-decoration: underline;
+}
+
+header nav ul li a:hover {
+  font: italic normal bold 17px/1.5 Courier New, monospace;
+  color: #F1F7F5;
+}
+
+#main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h3 {
+  font: normal small-caps normal 22px/1 Garamond, serif;
+  background-color: #DBB96D;
+  padding: 5px;
+}
+
+#intro {
+  margin-left: -3%;
+  margin-right: -3%;
+  margin-top: 3%;
+}
+
+#second {
+  text-align: right;
+  margin-left: -3%;
+  margin-right: -3%;
+  margin-top: 3%;
+}
+
+#intro-p {
+  font: normal normal normal 15px/1.5 Arial, sans-serif;
+}
+
+.feature {
+  padding: 10px;
+  background-color: #BFE2DB;
+  width: 75%;
+  margin: auto;
+  display: block;
+}
+
+.feature img {
+  width: 100%;
+}
+
+.feature figcaption {
+  font: italic normal normal 13px/1.2 Arial, sans-serif;
+}
+
+.orion {
+  background-color: #BFE2DB;
+  padding: 10px;
+  width: 50%;
+  float: left;
+}
+
+.orion img {
+  width: 100%;
+}
+
+.orion figcaption {
+  font: italic normal normal 13px/1.2 Arial, sans-serif;
+}
+
+.second-p {
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  line-height: 1.5;
+  clear: right;
+  margin-left: 55%;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+  background-color: #BFE2DB;
+  padding: 10px;
+}
+
+footer p {
+  font: italic normal normal 13px/1 Courier New, monospace;
 }
