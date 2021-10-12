@@ -63,6 +63,8 @@ h3 {
   font: normal small-caps normal 22px/1 Garamond, serif;
   background-color: #DBB96D;
   padding: 5px;
+  margin-bottom: -5px;
+  margin-top: 10px;
 }
 
 #intro {
